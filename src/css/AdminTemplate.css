@@ -1,0 +1,46 @@
+/* Conteneur principal */
+.admin-template {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Styles de la sidebar */
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background-color: #555;
+  }
+  
+  /* Styles du contenu principal */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  /* Navbar en haut */
+  .navbar {
+    height: 50px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
